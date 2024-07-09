@@ -13,8 +13,8 @@ from PIL import Image
 
 
 
-train_data_1 = np.load('train_data_1.npy')
-train_data_2 = np.load('train_data_2.npy')
+train_data_1 = np.load('train_data_1.npy')  #(BS,H,W)
+train_data_2 = np.load('train_data_2.npy')  #(BS,H,W)
 
 
 # fix data
